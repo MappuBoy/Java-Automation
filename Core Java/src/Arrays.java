@@ -39,6 +39,11 @@ public class Arrays {
             System.out.println(" Array index of the "+ j + " value  is " + values[j]) ;
         }
 
+        //for each loops
+        for (String s:values){ // String is the array data type , "s" is the variable and the "values" is the array reference
+            System.out.println(s);
+        }
+
 
 
     }
