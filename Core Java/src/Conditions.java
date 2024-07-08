@@ -8,6 +8,8 @@ public class Conditions {
         for (int i =0; i< array.length; i++){
             if (array [i] %2 == 0){ // use to get the "%" reminder and use "==" to equaly compare
                 System.out.println(array[i]);
+            }else {
+                System.out.println("It is not a odd value" + array[i]);
             }
         }
     }
