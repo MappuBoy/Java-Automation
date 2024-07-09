@@ -26,5 +26,7 @@ public class Main {
         System.out.println(decimal+"floating point value");
         System.out.println("decimal+\"floating point value\"");
 
+
+
     }
 }
