@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Arrays {
     public static void main(String[] args) {
 
@@ -43,6 +45,18 @@ public class Arrays {
         for (String s:values){ // String is the array data type , "s" is the variable and the "values" is the array reference
             System.out.println(s);
         }
+
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //Array lists
+        //Arraylist is in the util package.
+        //Below array stores String type of values
+        ArrayList<String> arraylist = new ArrayList<String>();
+        //need to create arraylist object
+        arraylist.add("Navod");
+        arraylist.add("Malith");
+        System.out.println("=======================================");
+        System.out.println(arraylist.get(0));
+
 
 
 
