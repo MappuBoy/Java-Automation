@@ -1,6 +1,8 @@
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-public class Arrays {
+public class JavaArrays {
     public static void main(String[] args) {
 
         //Arrays can create two different ways
@@ -55,7 +57,29 @@ public class Arrays {
         arraylist.add("Navod");
         arraylist.add("Malith");
         System.out.println("=======================================");
-        System.out.println(arraylist.get(0));
+        System.out.println(arraylist.get(0)); //can replase with getFirst() method
+
+        System.out.println("=======================================");
+        //Arraylists with for loops and other methods
+        for (int i=0; i< arraylist.size();i++){
+            System.out.println(arraylist.get(i));
+        }
+        System.out.println("=======================================");
+        //using foreach loop
+        for (String m:arraylist){
+            System.out.println(m);
+        }
+
+        //item is persent in the ayyalist (need to checkt the value is in the arraylist or not (using "contains" method)
+
+        System.out.println(arraylist.contains("Navod"));
+
+        //Convert array to arraylist
+        String[]name = {"Navod","Malith","Amarasinghe"};
+        // converting to the arraylist
+        //List is in the top of the hierarchy
+        List<String> namelist = Arrays.asList(name);
+        System.out.println(namelist.getFirst());
 
 
 
